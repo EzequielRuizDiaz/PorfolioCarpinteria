@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario de Contacto</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="estiloscontact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Pkqjd3OgQJYh6a/OW6P3Tq3NQef33NvLzXZNHfj10GVxR/HNzdG4pLGuhWK7iCggt1nDfVnTyBPsLQX1uJx57Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      
+      <script type="text/javascript">
+        emailjs.init('YVYKW6arpkCAOs36H')
+      </script>
+
+<body>
+  <li><a href="index.html" onclick="history.back(); return false;"><i class="material-icons">arrow_back</i></a></li>
+
+	<div class="container">
+	<form id="form">
+<h2>Formulario de Contacto</h2>	
+      <div class="field">
+        <label for="from_name">Nombre y apellido:</label>
+        <input type="text" name="from_name" id="from_name">
+      </div>
+      <div class="field">
+        <label for="email_id">Email:</label>
+        <input type="text" name="email_id" id="email_id">
+      </div>
+      <div class="field">
+        <label for="message">Mensaje:</label>
+        <textarea name="message" id="message" rows="5"></textarea>
+      </div>
+    
+      <input type="submit" id="button" value="Enviar" >
+    </form>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('YVYKW6arpkCAOs36H')
+  </script>
+    
+	</div>
+  
+    <script src="contacscript.js"></script>
+</body>
+</html>

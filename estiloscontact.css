@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.material-icons {
+  margin-top: 10px;
+  background-color: #bbbbbbc9;
+  color: rgb(0, 0, 0); /* Cambiar el color a azul */
+  font-size: 40px; /* Cambiar el tamaño de la flecha */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: rgba(187, 187, 187, 0.712);
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.field {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: #4460aa;
+  color: #fff;
+  border: none;
+}
+
+.attachment-input {
+  display: none;
+}
+
+.attachment-label {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.attachment-label i {
+  margin-right: 5px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #041404;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logi a {
+  width: 30px;
+  color: #fff;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+
+
+#message {
+  height: 95px;
+  font-size: 15px;
+  padding-top: 0; /* Agregado para ajustar la posición del texto */
+  }
+  
+  /* Estilos para el mensaje de éxito o error */
+  .success,
+  .error {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  }
+  
+  .success {
+  background-color: #41a048;
+  }
+  
+  .error {
+  background-color: #e60000;
+  }
+  
+  /* Estilos para el botón "Cancelar" */
+  .cancel-button {
+  background-color: #ff7f7f;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 10px;
+  }
+  
+  .button{
+    background-color: #000000;
+  }
